@@ -1,0 +1,23 @@
+/*header*/
+header {
+    background-color: #201E1F;
+    color: rgb(255, 255, 255);
+    font-size: 1,5em;
+    text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  width: 60px;
+  height: auto;
+}
+
+span {
+    color: rgb(157, 205, 248);
+    font-size: 1,5em;
+}
+/*main*/
+
+
+/*footer*/
