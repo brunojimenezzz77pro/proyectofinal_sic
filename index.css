@@ -12,7 +12,7 @@ body {
 /*header*/
 header {
 
-    background-color: #201E1F;
+    background-color: #40478a;
     /* Color de fondo */
     color: rgb(255, 255, 255);
     /* Color del texto */
@@ -25,7 +25,8 @@ header {
     align-items: center;
     /* Centra los elementos verticalmente */
     display: flex;
-
+    border-bottom: 5px solid #1b2e61;
+    /*hace un borde inferior y tambien lo colorea*/
 }
 
 .logo {
@@ -34,11 +35,12 @@ header {
     width: 100px;
     height: auto;
     justify-content: end;
+    border-radius: 10em;
 }
 
 h1 {
-   margin-top: 1em;
-   margin-bottom: 0%;
+    margin-top: 1em;
+    margin-bottom: 0%;
 }
 
 span {
@@ -49,15 +51,26 @@ span {
 
 /*main*/
 
+
+.h2m {
+    color: #1b2e61;
+
+
+}
+
+
 main {
-    margin-top: 4em; /*es para agrandar el margin superior*/
-    margin: 4em 0; /*es para agrandar el margin inferior*/
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    margin-top: 4em;
+    /*es para agrandar el margin superior*/
+    margin: 4em 0;
+    /*es para agrandar el margin inferior*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 nav {
     background-color: rgb(157, 205, 248);
-    padding: 1em; 
+    padding: 1em;
+    border-bottom: 5px solid #1b2e61;
 }
 
 
@@ -69,6 +82,7 @@ nav ul {
     justify-content: center;
     gap: 3em;
     margin: 0%;
+
 }
 
 nav ul li {
@@ -86,46 +100,86 @@ nav a {
 
 }
 
+nav a:hover {
+    color: #1b2e61;
+    border-radius: 2px solid #1b2e61;
+}
+
 .img {
     width: 500px;
     height: 250px;
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+
 }
 
 .one {
     display: flex;
     justify-content: center;
+
 }
 
 .onetext {
     margin: 0;
-    margin-right: 3em; /*margin derecho*/
+    /*nada de margin*/
+    margin-right: 3em;
+    /*margin derecho*/
     font-size: 1.5em;
+    /*tamaño de letra*/
 
 
 }
 
 .two {
     display: flex;
+    /**/
     flex-direction: row;
+    /*pone los elementos en fila*/
     justify-content: center;
+    /*centra los elementos horizontalmente*/
+    margin-top: 5em;
+    /*separe la caja1 de la caja2*/
 }
 
 .twotext {
     margin: 0;
     margin-left: 3em;
     font-size: 1.5em;
+
 }
 
 /*footer*/
 
 footer {
     background-color: #201E1F;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px solid #1b2e61;
 }
 
 h3 {
-    color: rgb(157, 205, 248);
+    color: rgb(255, 255, 255);
+        border-bottom: 3px solid;
 }
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .logos {
     width: 35px;
@@ -134,21 +188,77 @@ h3 {
 
 .rs {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     color: white;
-    text-align: center;
+    margin: 0%;
+    align-items: center;
+
 }
 
 .dueño {
-display: flex;
-    flex-direction:column ;
+    display: flex;
+    flex-direction: column;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 .hecho {
-display: flex;
-    flex-direction:column ;
+    display: flex;
+    flex-direction: column;
     color: white;
     text-align: center;
+    align-items: center;
+}
+
+/*termina el inici/menu/index*/
+
+/*servicios*/
+
+.h1s { /*h1 principal*/
+    color: #ffffff;
+    margin-left: 1.5em;
+}
+
+.psh1 { /*p principal*/
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+    margin: 1.5em;
+    font-size: 1.5em;
+}
+
+.h1ss { /*h1 secu*/
+ color: white;
+ text-align: center;
+}
+
+.hds { /*h2 pri*/
+    color: white;
+    margin-left: 1.5em;
+}
+
+.ps { /*p secu*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+    margin: 1.5em;
+    font-size: 1.5em;
+}
+
+/*mains*/
+
+.boxs {
+    background-color: #40478a;
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+    text-align: center;
+    margin-bottom: 5em;
+    margin: 2em;
+}
+
+.boxs2 {
+ background-color: #40478a;
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+    margin: 2em;
+    
 }
