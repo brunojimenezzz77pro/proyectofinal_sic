@@ -139,6 +139,7 @@ nav a:hover {
     /*centra los elementos horizontalmente*/
     margin-top: 5em;
     /*separe la caja1 de la caja2*/
+
 }
 
 .twotext {
@@ -160,7 +161,7 @@ footer {
 
 h3 {
     color: rgb(255, 255, 255);
-        border-bottom: 3px solid;
+    border-bottom: 3px solid;
 }
 
 footer ul {
@@ -172,7 +173,7 @@ footer ul li {
     align-items: center;
     gap: 5px;
     margin-bottom: 10px;
-   
+
 }
 
 a {
@@ -215,31 +216,36 @@ a {
 
 /*servicios*/
 
-.h1s { /*h1 principal*/
+.h1s {
+    /*h1 principal*/
     color: #ffffff;
     margin-left: 1.5em;
 }
 
-.psh1 { /*p principal*/
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: white;
+.psh1 {
+    /*p principal*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
     margin: 1.5em;
     font-size: 1.5em;
 }
 
-.h1ss { /*h1 secu*/
- color: white;
- text-align: center;
+.h1ss {
+    /*h1 secu*/
+    color: white;
+    text-align: center;
 }
 
-.hds { /*h2 pri*/
+.hds {
+    /*h2 pri*/
     color: white;
     margin-left: 1.5em;
 }
 
-.ps { /*p secu*/
+.ps {
+    /*p secu*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: white;
+    color: white;
     margin: 1.5em;
     font-size: 1.5em;
 }
@@ -256,9 +262,97 @@ color: white;
 }
 
 .boxs2 {
- background-color: #40478a;
+    background-color: #40478a;
     border-radius: 20px;
     border: 5px solid #1b2e61;
     margin: 2em;
-    
+
 }
+
+/*+proyectos main*/
+
+/*main*/
+
+main {
+    margin-left: 4em;
+}
+
+.h1-proyectos {
+    color: #1b2e61;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/*section*/
+
+.section-proyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*divs*/
+
+.div-proyectos-1 {
+    margin-bottom: 2em;
+}
+
+.div-proyectos-2 {
+    margin-bottom: 2em;
+}
+
+.div-proyectos-3 {
+    margin-bottom: 2em;
+}
+
+/*imgs*/
+
+.img-masproyectos {
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+    margin-bottom: 4em;
+}
+
+/*texto*/
+
+/*nosotros main*/
+
+.img1 {
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+    width: 60em;
+    height: 35em;
+}
+
+.section-nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1-contenido-nosotros {
+    background-color: #40478a;
+    border-radius: 20px;
+    border: 5px solid #1b2e61;
+    text-align: center;
+    margin-bottom: 5em;
+    margin: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 1.5em;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 23em;
+    width: 17em;
+}
+
+.logod1 {
+    border-radius: 10em;
+}
+
+
+/*contactanos main*/
